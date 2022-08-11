@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var mivariable = 5;
+        function mifuncion(){
+            var mivariable = "Esta es un variable local."; alert(mivariable);
+        }
+        mifuncion(); alert(mivariable);
+        /*
+        Declaramos una variables llamadas mivariable,
+        una en el ámbito global y la otra dentro de la función miFuncion().
+        También incluimos dos funciones alert() en el código,
+        una dentro de la función mifuncion() y otra en el ámbito global al final del código.
+        Ambas muestran el contenido de la variable mivariable, pero referencian distintas variables.
+        */
+    </script>
+</body>
+</html>

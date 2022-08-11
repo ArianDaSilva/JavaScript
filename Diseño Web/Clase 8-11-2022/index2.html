@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+/*
+    Declara un función llamada mifuncion() y dos variables, una en el ámbito global llamado variableGlobal y
+    otra dentro de la función llamada variableLocal.
+    Cuando se ejecuta la función, el código concatena las variables variableLocal y variableGlobal, y muestra la cadena de caracteres obtenida en la pantalla.
+*/
+
+        var variableGlobal = 5;
+        function mifuncion(){
+        var variableLocal = "El valor es ";
+        alert(variableLocal + variableGlobal);
+        }
+        mifuncion();
+        alert(variableLocal);
+
+    </script>
+</body>
+</html>
